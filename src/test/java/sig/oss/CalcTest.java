@@ -6,4 +6,7 @@ import org.junit.Test;
 	@Test	public void testSub(){
 		Calc c = new Calc();
 		assertEquals(-10, c.sub(10,20));	} 
+	@Test	public void testMul(){
+		Calc c = new Calc();
+		assertEquals(20, c.mul(4,5));	} 
 }
